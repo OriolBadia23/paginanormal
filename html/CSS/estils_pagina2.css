@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to top left, rgb(0, 204, 255), rgb(8, 151, 3));
+    background-repeat: no-repeat;
+}
+
+#back{
+    font-size: 210%;
+    background-color: rgb(255, 145, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#back:hover{
+    transform: rotate(-20deg);
+    transition: 1s;
+    background-color: darkblue;
+    border: 3px solid tomato;
+    color: white;
+    border-radius: 30px
+}
+
+#P{
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(255, 145, 0);
+}
+
+#H{
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+#PH{
+    font-size: 210%;
+    background-color: rgb(255, 145, 0);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+#PH:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+    transition: 1s;
+    background-color: black;
+    border: 5px solid rgb(255, 145, 0);
+    color: white;
+}
+
+
+
+#fi{
+    text-align: center;
+    font-size: 590%;
+}
+
